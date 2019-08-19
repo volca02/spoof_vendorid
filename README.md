@@ -7,6 +7,8 @@ To use this layer, after building it place a copy of the two built files (libVkL
 
     VK_LAYER_PATH=/some/path/ VK_INSTANCE_LAYERS=VK_LAYER_LUNARG_vendorid_layer %COMMAND%
 
+All credits go to ZeroFault, who discovered this fix. I was just too impatient to wait for him to post a working solution so I re-implemented what he described.
+
 [![LunarG][1]][2]
 
 [1]: https://vulkan.lunarg.com/img/LunarGLogo.png "www.LunarG.com"
