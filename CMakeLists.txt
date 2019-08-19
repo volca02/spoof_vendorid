@@ -41,7 +41,7 @@ else()
 endif()
 
 #find_library(VKLAYER_UTILS_VLF NAMES VkLayer_utils_vlf HINTS ${CMAKE_CURRENT_SOURCE_DIR}/../../x86_64/lib)
-link_directories(${CMAKE_CURRENT_SOURCE_DIR}/../../x86_64/lib)
+link_directories(${CMAKE_CURRENT_SOURCE_DIR}/x86_64/lib)
 
 include_directories(
     ${CMAKE_CURRENT_SOURCE_DIR}
