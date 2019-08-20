@@ -1,7 +1,7 @@
 # Spoof vendorid
 
 This small vulkan layer will spoof vendorid to be of AMD rather than NVidia. It is a quick and dirty hack to enable No Man's Sky to work well on Nvidia Cards.
-The repository is a direct copy of a part of Vulkan SDK by LunarG, all licensing and rights are as specified by LunarG.
+The repository is a direct copy of a part of Vulkan SDK by LunarG, with only the vendorid layer code added by me, all licensing and rights are as specified by LunarG.
 
 To use this layer, after building it place a copy of the two built files (libVkLayer_vendorid_layer.so and VkLayer_vendorid_layer.json) to your chosen "/some/path", and edit the launch options of No Man's Sky in steam as follows, while replacing /some/path with your chosen path:
 
